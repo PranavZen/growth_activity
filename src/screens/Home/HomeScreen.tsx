@@ -8,6 +8,7 @@ import {
   StatusBar,
   Image,
 } from 'react-native';
+import { showToast } from '../../utils/toast';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -148,6 +149,15 @@ const HomeScreen: React.FC = () => {
             onPress={() => navigation.navigate('Dashboard')}
           >
             <Icon name="chart-bar" size={22} color={COLORS.accent} />
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.iconBtn}
+            onPress={() => {
+              showToast('Logged out successfully');
+              navigation.replace('SignIn');
+            }}
+          >
+            <Icon name="logout" size={22} color={COLORS.danger} />
           </TouchableOpacity>
         </View>
       </View>
