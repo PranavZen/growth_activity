@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "newAppVersion.app"
-               BlueprintName = "newAppVersion"
-               ReferencedContainer = "container:newAppVersion.xcodeproj">
+               BuildableName = "behavioralgrowthappRN.app"
+               BlueprintName = "behavioralgrowthappRN"
+               ReferencedContainer = "container:behavioralgrowthappRN.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "newAppVersionTests.xctest"
-               BlueprintName = "newAppVersionTests"
-               ReferencedContainer = "container:newAppVersion.xcodeproj">
+               BuildableName = "behavioralgrowthappRNTests.xctest"
+               BlueprintName = "behavioralgrowthappRNTests"
+               ReferencedContainer = "container:behavioralgrowthappRN.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "newAppVersion.app"
-            BlueprintName = "newAppVersion"
-            ReferencedContainer = "container:newAppVersion.xcodeproj">
+            BuildableName = "behavioralgrowthappRN.app"
+            BlueprintName = "behavioralgrowthappRN"
+            ReferencedContainer = "container:behavioralgrowthappRN.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "newAppVersion.app"
-            BlueprintName = "newAppVersion"
-            ReferencedContainer = "container:newAppVersion.xcodeproj">
+            BuildableName = "behavioralgrowthappRN.app"
+            BlueprintName = "behavioralgrowthappRN"
+            ReferencedContainer = "container:behavioralgrowthappRN.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
